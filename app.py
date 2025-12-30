@@ -11,8 +11,6 @@ import re
 from PyPDF2 import PdfReader
 from docx import Document
 
-
-
 load_dotenv()
 
 
