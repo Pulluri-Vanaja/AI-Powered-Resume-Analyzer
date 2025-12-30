@@ -15,6 +15,9 @@ from docx import Document
 import os
 
 GOOGLE_API_KEY = os.environ["gem"]
+if not GOOGLE_API_KEY:
+    st.error("API key not found. Please add GOOGLE_API_KEY in Streamlit Secrets.")
+    st.stop()
 
 
 class ResumeSchema(TypedDict):
