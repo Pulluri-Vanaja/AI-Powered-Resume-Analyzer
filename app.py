@@ -14,10 +14,12 @@ from docx import Document
 
 import os
 
-GOOGLE_API_KEY = os.environ["gem"]
+GOOGLE_API_KEY = os.getenv("gem")
+
 if not GOOGLE_API_KEY:
-    st.error("API key not found. Please add GOOGLE_API_KEY in Streamlit Secrets.")
+    st.error("API key not found. Please add `gem` in Streamlit Secrets.")
     st.stop()
+
 
 
 class ResumeSchema(TypedDict):
