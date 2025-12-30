@@ -13,31 +13,54 @@ Manually extracting candidate details from each resume is time-consuming, incons
 This application automates the entire process by:
 
 🔹Reading resumes from a ZIP file
+
 🔹Extracting key information using an AI model
+
 🔹Converting unstructured resume text into structured data
+
 🔹Generating a downloadable CSV file for easy analysis
 
+
 ✅ Key Features
+
 📦 Upload a ZIP file containing multiple resumes (PDF / DOCX)
+
 🧠 AI-powered resume understanding using LLMs
+
 🧾 Extracts structured fields such as:
-Name
-Email
-Phone
-Skills
-Experience Summary
-LinkedIn
-GitHub
+
+🧑🏽‍🦱Name
+
+Ⓜ️Email
+
+📞Phone
+
+📖Skills
+
+💼Experience Summary
+
+📩LinkedIn
+
+🌐GitHub
+
 📊 Displays extracted data in a table
+
 📥 Download results as a CSV file
+
 ⚡ Handles nested folders inside ZIP files
+
 🛡 Graceful handling of API rate limits
+
 🧑‍🎓 Beginner-friendly, readable codebase
 
 🧩Tech Stack
+
 Streamlit
+
 LangChain
+
 Google Gemini
+
 PyPDF2, python-docx
 zipfile
 docx
