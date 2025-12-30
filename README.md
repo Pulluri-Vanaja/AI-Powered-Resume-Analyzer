@@ -29,19 +29,19 @@ This application automates the entire process by:
 
 🧾 Extracts structured fields such as:
 
-🧑🏽‍🦱Name
+     🧑🏽‍🦱Name
 
-Ⓜ️Email
+     Ⓜ️Email
 
-📞Phone
+     📞Phone
 
-📖Skills
+     📖Skills
 
-💼Experience Summary
+     💼Experience Summary
 
-📩LinkedIn
+     📩LinkedIn
 
-🌐GitHub
+     🌐GitHub
 
 📊 Displays extracted data in a table
 
