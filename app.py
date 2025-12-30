@@ -4,14 +4,17 @@ import tempfile
 import pandas as pd
 import streamlit as st
 
-from dotenv import load_dotenv
+
 from typing import TypedDict, List
 import re
 
 from PyPDF2 import PdfReader
 from docx import Document
 
-load_dotenv()
+
+import os
+
+GOOGLE_API_KEY = os.environ["GOOGLE_API_KEY"]
 
 
 class ResumeSchema(TypedDict):
