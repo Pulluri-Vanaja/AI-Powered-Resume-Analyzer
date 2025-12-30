@@ -14,7 +14,7 @@ from docx import Document
 
 import os
 
-GOOGLE_API_KEY = os.environ["GOOGLE_API_KEY"]
+GOOGLE_API_KEY = os.environ["gem"]
 
 
 class ResumeSchema(TypedDict):
